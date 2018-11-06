@@ -10,7 +10,7 @@
     "docs": "documentation build lib/benchpress.js lib/precompile.js lib/compile-render.js lib/express.js -f md -o docs/api.md --shallow",
     "prepare": "grunt build uglify",
     "prepublishOnly": "grunt",
-    "install": "cd rust/benchpress-rs && npm install"
+    "install": "cd rust/benchpress-rs && sudo npm install"
   },
   "repository": "git://github.com/benchpressjs/benchpressjs",
   "main": "build/lib/benchpress",
